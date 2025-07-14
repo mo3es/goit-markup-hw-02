@@ -6,7 +6,7 @@ body {
   color: #434455;
 }
 
-address {
+.header-address {
   font-style: normal;
 }
 ul,
@@ -37,6 +37,7 @@ ol {
   /* line-height: 24px; */
   line-height: 1.5;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .header-nav-link:focus,
 .header-nav-link:hover,
@@ -89,12 +90,26 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.benefits-list-item {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
 /* #endregion benefits */
 
 /* #region our team */
 .team-section {
   background-color: #f4f4fd;
+}
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-item-header {
   font-weight: 500;
@@ -106,9 +121,11 @@ ol {
   letter-spacing: 0.02em;
   background-color: #fff;
 }
-
+.team-list {
+  background-color: #ffffff;
+}
 .team-item {
-  /* line-height: 24px; */
+  /* line-height: 24px; *-one
   line-height: 1.5;
   text-align: center;
   color: #434455;
@@ -122,13 +139,15 @@ ol {
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
+  text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
-.portfolio-row1-item-header,
-.portfolio-row2-item-header {
+.portfolio-row-one-item-header,
+.portfolio-row-two-item-header {
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -136,8 +155,8 @@ ol {
   line-height: 1.2;
   color: #2e2f42;
 }
-.portfolio-row1-item,
-.portfolio-row2-item {
+.portfolio-row-one-item,
+.portfolio-row-two-item {
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -163,5 +182,6 @@ ol {
   /* line-height: 24px; */
   line-height: 1.5;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 /* #endregion footer */
