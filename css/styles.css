@@ -5,10 +5,10 @@ body {
   font-weight: 500;
   color: #434455;
 }
-
-a{
+a {
   text-decoration: none;
 }
+
 .header-address {
   font-style: normal;
 }
@@ -128,7 +128,7 @@ ol {
   background-color: #ffffff;
 }
 .team-item {
-  /* line-height: 24px; *-one
+  /* line-height: 24px; */
   line-height: 1.5;
   text-align: center;
   color: #434455;
@@ -138,6 +138,7 @@ ol {
 /* #endregion our team */
 
 /* #region portfolio */
+
 .portfolio-header {
   font-weight: 700;
   font-size: 36px;
