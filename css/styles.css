@@ -4,11 +4,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #434455;
-  letter-spacing: 0.02em;
 }
 
 a {
   text-decoration: none;
+  font-style: normal;
+}
+address {
   font-style: normal;
 }
 ul,
@@ -26,7 +28,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -61,8 +63,9 @@ ol {
   font-weight: 700;
   font-size: 56px;
   /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 .Hero-button {
@@ -74,7 +77,8 @@ ol {
   color: #fff;
   cursor: pointer;
 }
-.Hero-button:hover {
+.Hero-button:hover,
+.Hero-button:focus {
   background-color: #404bbf;
 }
 /* #endregion Hero */
@@ -85,6 +89,7 @@ ol {
   font-size: 20px;
   /* line-height: 24px; */
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -101,6 +106,7 @@ ol {
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
   background-color: #fff;
 }
 
@@ -109,6 +115,7 @@ ol {
   line-height: 1.5;
   text-align: center;
   color: #434455;
+  letter-spacing: 0.02em;
   background-color: #fff;
 }
 /* #endregion our team */
@@ -118,7 +125,8 @@ ol {
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -126,6 +134,7 @@ ol {
 .portfolio-row2-item-header {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   /* line-height: 24px; */
   line-height: 1.2;
   color: #2e2f42;
@@ -134,6 +143,7 @@ ol {
 .portfolio-row2-item {
   /* line-height: 24px; */
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion portfolio */
 
@@ -147,7 +157,7 @@ ol {
   font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
