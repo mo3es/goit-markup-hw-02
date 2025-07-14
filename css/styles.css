@@ -6,10 +6,6 @@ body {
   color: #434455;
 }
 
-a {
-  text-decoration: none;
-  font-style: normal;
-}
 address {
   font-style: normal;
 }
@@ -52,14 +48,15 @@ ol {
   /* line-height: 24px; */
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 /* #endregion header */
 
 /* #region Hero */
-.Hero {
+.hero {
   background-color: #2e2f42;
 }
-.Hero-header {
+.hero-header {
   font-weight: 700;
   font-size: 56px;
   /* line-height: 60px; */
@@ -68,7 +65,7 @@ ol {
   letter-spacing: 0.02em;
   color: #fff;
 }
-.Hero-button {
+.hero-button {
   font-weight: 500;
   background-color: #4d5ae5;
   /* line-height: 24px; */
@@ -77,8 +74,8 @@ ol {
   color: #fff;
   cursor: pointer;
 }
-.Hero-button:hover,
-.Hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 /* #endregion Hero */
