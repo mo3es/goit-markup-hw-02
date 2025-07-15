@@ -1,8 +1,9 @@
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #434455;
 }
 a {
@@ -18,9 +19,6 @@ ol {
 }
 
 /* #region header */
-.page-header {
-  background-color: #d9d9d9;
-}
 
 .logo {
   font-family: 'Raleway', sans-serif;
