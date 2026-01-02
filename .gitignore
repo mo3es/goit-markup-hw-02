@@ -1,0 +1,30 @@
+# Залежності (if used npm/yarn)
+node_modules/
+dist/
+build/
+
+# VS Code
+.vscode/
+# Якщо хочете зберегти налаштування проєкту, але ігнорувати особисті:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+npm-debug.log*
+
+# Тимчасові файли та кеш
+.cache/
+.sass-cache/
+.eslintcache
+
+# Навколишнє середовище (паролі, ключі)
+.env
+*.env.local
