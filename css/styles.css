@@ -12,8 +12,8 @@
   --primary-background-color: 255 255 255; /*white*/
   --secondary-background-color: 46 47 66; /*navy blue*/
   --modal-background-color: 252 252 252; /*dairy*/
-  /*--modal-secondary-background-color: 46 47 66 /0.4; /*navy blue modal*/
-  /*--hero-image-background-color: 46 47 66 /0.7; /*grey*/
+  --modal-secondary-background-color: 46 47 66 /0.4; /*navy blue modal*/
+  --hero-image-background-color: 46 47 66 /0.7; /*grey*/
   --light-background-color: 244 244 253; /*cloud*/
   --primary-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
@@ -44,7 +44,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*.visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -56,7 +56,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}*/
+}
 
 h2 {
   font-size: 36px;
