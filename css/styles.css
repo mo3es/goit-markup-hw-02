@@ -25,7 +25,6 @@
 a {
   text-decoration: none;
   color: rgb(var(--secondary-text-color));
-  font-style: normal;
 }
 
 ul,
@@ -45,7 +44,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -57,12 +56,14 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: rgb(var(--secondary-text-color));
 }
@@ -71,6 +72,8 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: rgb(var(--secondary-text-color));
 }
 /* ============= END COMMON STYLES ============= */
@@ -90,12 +93,25 @@ h3 {
   color: rgb(var(--secondary-text-color));
 }
 
+.nav-menu-link {
+  font-weight: 500;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-menu-link {
+  color: rgb(var(--primary-text-color));
+}
+
 .nav-menu-link:hover,
 .contacts-menu-link:hover,
 .nav-menu-link:focus,
 .contacts-menu-link:focus {
   color: rgb(var(--hover-pressed-color));
 }
+
 /* ============= END HEADER ============= */
 
 /*============== MAIN ====================*/
@@ -110,6 +126,7 @@ h3 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: rgb(var(--light-text-color));
 }
@@ -117,6 +134,9 @@ h3 {
 .hero-button {
   background-color: rgb(var(--cta-active-color));
   color: rgb(var(--light-text-color));
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
